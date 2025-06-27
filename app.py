@@ -1,3 +1,4 @@
+import sys
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -8,6 +9,9 @@ from datetime import datetime
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_absolute_error, r2_score
 
+if sys.version_info >= (3, 12):
+    raise RuntimeError("Python 3.12+ not supported. Use Python 3.10")
+    
 start = '2004-01-01'
 end = '2024-12-31'
 
