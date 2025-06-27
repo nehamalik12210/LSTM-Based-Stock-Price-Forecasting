@@ -1,4 +1,4 @@
-# Stock Trend Prediction using LSTM
+# LSTM-Based Stock Price Forecasting
 A web application that predicts stock price trends using an LSTM (Long Short-Term Memory) neural network. This project uses historical stock data and visualizes both actual and predicted prices to help investors analyze stock trends.
 
 ## Demo
